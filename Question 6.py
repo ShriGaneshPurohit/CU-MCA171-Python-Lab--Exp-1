@@ -10,7 +10,7 @@ temp = num
 rev = 0
 
 while(temp != 0):
-    mod = num%10
+    mod = temp%10
     sum += mod
     rev =rev*10 + mod
     temp //=10
